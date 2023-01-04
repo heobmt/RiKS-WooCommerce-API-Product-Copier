@@ -1,0 +1,201 @@
+/**
+ * All of the CSS for your admin-specific functionality 
+ */
+ .riks_woo_api_connect_wrapper{
+     text-align:left; 
+     width:100%;
+ }
+ .riks_wac_wrapper{
+     text-align:left; 
+     padding: 10px;
+ }
+ .riks_woo_api_connect_tab_content{
+    
+ }
+ .riks_woo_api_connect_tab_content_active{
+    
+ }
+ .riks_woo_api_connect_tab_title{
+    float: left;
+    width: 10%;
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 15px 5px 0 0;
+    text-align: center;
+    background: #b3bbb8;
+ }
+ .riks_woo_api_connect_tab_title_active{
+    float: left;
+    width: 10%;
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 15px 5px 0 0;
+    text-align: center;
+    border-bottom:none;
+    background: #ffffff;
+ }
+ .riks_woo_api_connect_search_bar{
+    float: left;
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+ }
+ .riks_woo_api_connect_tab_content{
+    background: #fff;
+    padding: 5px;
+ }
+ .riks_css_ul{
+     padding: revert;
+ }
+ .riks_wac_category_wraper{
+    overflow-y: scroll;
+    height: 400px;
+    background: #fff;
+ }
+ .riks_wac_product_table{
+     background: #fff;
+     padding: 5px;
+     width: 99%;
+ }
+ .riks_wac_textfield{
+     text-align: left;
+ }
+ .riks_wac_price{
+     text-align: right;
+ }
+ .riks_wac_text_right{
+     text-align: right;
+ }
+ .riks_wac_text_left{
+     text-align:left;
+ }
+.riks_wac_table {
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: solid 1px #00aeea;
+
+}
+
+.riks_wac_td {
+  text-align: left;
+  padding: 8px;
+}
+
+.riks_wac_tr:nth-child(odd) {
+    background-color: #f0f8ff;
+    border-left: solid 1px #00aeea;
+    border-right: solid 1px #00aeea;
+}
+.riks_wac_tr:nth-child(even) {
+    background-color: #fff;
+    border-left: solid 1px #00aeea;
+    border-right: solid 1px #00aeea;
+}
+.riks_wac_th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00aeea;
+    color: #fff;
+}
+.riks_wac_form_wraper{
+    border-radius:10px;
+    padding: 10px;
+    background: #fff;
+}
+.riks_wac_form_wraper .riks_wac_form_label{
+    float: left;
+    width: 130px;
+    text-align: left;
+}
+.riks_wac_form_wraper .riks_wac_form_input{
+    width:50%;
+    text-align: left;
+}
+.riks_wac_text_title{
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 0 10px 0px;
+}
+.riks_wac_cat_holder{
+    overflow-y: scroll;
+    height: 400px;
+    background: #fff;
+}
+.riks_wac_new_product_label{
+    color: red;
+    float:right;
+}
+.riks_wac_product_image{
+    position: relative;
+    top: 0;
+    left: 0;
+    width:80px;
+}
+.riks_wac_new_product_badge{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width:30px;
+}
+.riks_wac_product_image_holder{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.riks_wac_bulk_copy_button{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.riks_wac_submit_button{
+    background: rgb(204 204 204);
+    border: solid 1px #00aeea;
+    padding: 15px;
+    border-radius: 5px;
+    color: #181818;
+    cursor: pointer;
+}
+.riks_wac_input_select{
+    background-color: rgb(204 204 204);
+    height: 50px; 
+    width:20%
+}
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+.riks_wac_loading{
+    width:200px;
+}
+.riks_wac_progress{
+    background: #fff;
+    border: solid 1px #00aeea;
+    border-radius: 10px;
+    text-align: center;
+}
+.riks_wac_message{
+    background: #fff;
+    border: solid 1px #00aeea;
+    border-radius: 10px;
+    text-align: center;
+    padding:20px;
+    
+}
